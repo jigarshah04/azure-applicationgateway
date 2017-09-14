@@ -4,8 +4,7 @@ This ARM template deploys two VM-Series firewalls between a pair of Azure load b
 
 As demand for your web services increase, you can add more web servers and deploy additional VM-Series firewalls for more capacity. Each tier, the VM-Series firewalls and web servers, are deployed in separate Availability Sets for higher availability and redundancy against planned and unplanned outages. Refer to Azure documentation for more information on [Availability Sets](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-linux-manage-availability). A sample configuration file for VM-Series firewall is also included. After you import this configuration file, be sure to (a) customize the security policies to your needs and (b) <b>set a custom password</b> for the firewall instead of the value in the sample file. Refer to the documentation for steps on how to import the sample configuration file. 
 
-Changes from the officially supported version of this template (below): Enabled WAF for Azure Application Gateway. For more information on WAF features see [Azure WAF documentation](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-web-application-firewall-overview). 
-https://github.com/paloaltonetworks/azure-applicationgateway
+Changes from the officially supported version of the [original template](https://github.com/paloaltonetworks/azure-applicationgateway): Enabled WAF for Azure Application Gateway. For more information on WAF features see [Azure WAF documentation](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-web-application-firewall-overview). 
 
 **Support Policy**
 ***Community Supported***
