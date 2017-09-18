@@ -158,8 +158,7 @@
       "metadata": {
         "description": "WAF Rule Set Version"
       }
-    }
-  },
+    },
     "appGatewayDnsName": {
       "type": "string",
       "metadata": {
