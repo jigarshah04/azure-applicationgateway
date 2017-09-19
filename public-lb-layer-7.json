@@ -28,9 +28,10 @@
       "allowedValues": [
         "Standard_Small",
         "Standard_Medium",
+        "WAF_Medium",
         "Standard_Large"
       ],
-      "defaultValue": "Standard_Medium",
+      "defaultValue": "WAF_Medium",
       "metadata": {
         "description": "Sku Name"
       }
@@ -93,7 +94,7 @@
       "properties": {
         "sku": {
           "name": "[parameters('skuName')]",
-          "tier": "Standard",
+          "tier": "WAF",
           "capacity": "[parameters('capacity')]"
         },
         "gatewayIPConfigurations": [
